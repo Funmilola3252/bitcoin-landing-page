@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Franklin Gothic Medium";
+  font-size: 62.5%;
+  background: linear-gradient(80deg, rgb(12, 12, 37) 60%, rgb(70, 21, 70));
+}
+
+html {
+  line-height: 1.2;
+  font-size: 2.4rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 12rem;
+  
+}
+
+.container {
+  max-width: 80%;
+  margin: 1.5rem auto;
+}
+
+.navbar,
+.content,
+.links {
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navlist {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.6rem;
+}
+
+.wrapper {
+  display: flex;
+  gap: 2.5rem;
+  margin: 1rem 0;
+}
+
+.bitcointrading {
+  font-size: 1.5rem;
+  font-weight: 100;
+  line-height: 1;
+  margin-top: 2rem;
+}
+
+.firstparagraph {
+  text-transform: uppercase;
+  margin: 0.3rem 0;
+}
+
+.secondparagraph {
+  font-size: 0.4rem;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+.leftlink {
+ margin-left: 0.3rem;
+}
+
+.links {
+  border: 1.5px solid #fff;
+  border-radius: 3rem;
+  font-size: 0.4rem;
+  padding: 0.2rem 0.8rem;
+}
